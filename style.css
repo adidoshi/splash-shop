@@ -27,6 +27,10 @@
   width: 350px;
 }
 
+.nav-right a {
+  color: black;
+}
+
 /* carousel slider css */
 #slider {
   overflow: hidden;
