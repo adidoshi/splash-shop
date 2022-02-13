@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filter {
+  width: 15%;
+  padding: 1.8rem;
+}
+
+.filter-title {
+  display: flex;
+  align-items: center;
+}
+
+.filter-title button {
+  color: var(--dark-color);
+}
+
+.filter-section {
+  margin: 1rem 0;
+}
+
+.filter-section .input-grp {
+  margin: 1rem 0;
+  padding-left: 0.8rem;
+  font-size: 1rem;
+}
+
+.filter-price-range-label {
+  font-size: 0.8rem;
+  color: var(--dark-gray);
+  margin-top: 1.5rem;
+}
+
+.filter-price-range-label input {
+  margin-top: 1rem;
+}
+
+.input-grp-label {
+  cursor: pointer;
+}
+
+.rating {
+  margin-top: 1rem;
+}
+
+.product-card-container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-primary-text span {
+  color: var(--warning);
+}
+
+@media screen and (max-width: 820px) {
+  /* filter */
+  .filter {
+    display: none;
+  }
+}
