@@ -17,9 +17,8 @@
   font-size: 0.8rem;
 }
 
-.btn {
-  padding: 0 8px;
-  height: 2.5rem;
+.nav-left button {
+  padding: 0 5px;
   margin: 5px 25px;
 }
 
