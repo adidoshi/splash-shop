@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | Splash Shop</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../../assets/favicon1.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://splashui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="./Cart.css" />
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navigation">
+      <div class="nav-left">
+        <div>
+          <a href="../../index.html"><h2 class="nav-logo">Splash Shop</h2></a>
+          <!-- <span>Leather store!</span> -->
+        </div>
+        <button class="btn btn-link">
+          <a href="./ProductListing.html">Shop now</a>
+        </button>
+      </div>
+      <div class="nav-center">
+        <input type="search" class="input" placeholder="Search" />
+      </div>
+      <div class="nav-right">
+        <div class="badge">
+          <a href="../auth/login/Login.html"><i class="fas fa-user"></i></a>
+        </div>
+        <div class="badge">
+          <a href="../cart/Cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <div class="badge-icon-text">4</div>
+        </div>
+        <div class="badge">
+          <a href="../wishlist/Wishlist.html"><i class="fas fa-heart"></i></a>
+          <div class="badge-icon-text">4</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- products added to cart -->
+    <main class="cart-container">
+      <section class="cart-wrapper">
+        <h2 class="cart-title">My Cart (2)</h2>
+
+        <section class="cart-main">
+          <div class="cart-product">
+            <!-- product 1 -->
+            <div class="card-horizontal">
+              <div class="card-horizontal-img">
+                <img
+                  class="responsive-img"
+                  src="/assets/productList1.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="card-info">
+                <div class="heading">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Laudantium, fugiat.
+                </div>
+                <div class="price">₹ 1299</div>
+                <div class="card-detals-quantity">
+                  Quantity
+                  <span class="card-detals-quantity-icon">
+                    <i class="fas fa-plus-circle"></i>
+                  </span>
+                  3
+                  <span class="card-detals-quantity-icon">
+                    <i class="fas fa-minus-circle"></i>
+                  </span>
+                </div>
+                <button class="card-actions-btn-filled">
+                  Move to Wishlist
+                </button>
+                <button class="card-actions-btn-filled outline">
+                  Remove from Cart
+                </button>
+              </div>
+            </div>
+            <hr />
+            <!-- product 2 -->
+            <div class="card-horizontal">
+              <div class="card-horizontal-img">
+                <img
+                  class="responsive-img"
+                  src="/assets/productList1.jpg"
+                  alt="img"
+                />
+              </div>
+              <div class="card-info">
+                <div class="heading">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Laudantium, fugiat.
+                </div>
+                <div class="price">₹ 1299</div>
+                <div class="card-detals-quantity">
+                  Quantity
+                  <span class="card-detals-quantity-icon">
+                    <i class="fas fa-plus-circle"></i>
+                  </span>
+                  3
+                  <span class="card-detals-quantity-icon">
+                    <i class="fas fa-minus-circle"></i>
+                  </span>
+                </div>
+                <button class="card-actions-btn-filled">
+                  Move to Wishlist
+                </button>
+                <button class="card-actions-btn-filled outline">
+                  Remove from Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- price details -->
+          <div class="cart-price">
+            <div class="title">Price Details</div>
+            <hr />
+            <div class="sub-price">
+              <div class="price">
+                <div class="text">
+                  Price (<span class="quantity">2</span> items)
+                </div>
+                <div class="value">₹ 2598</div>
+              </div>
+
+              <div class="price">
+                <div class="text">Discount</div>
+                <div class="value">- ₹ 549</div>
+              </div>
+
+              <div class="price">
+                <div class="text">Delivery Charges</div>
+                <div class="value">₹ 79</div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="total-price">
+              <div class="text">Total Amount</div>
+              <div class="value">₹ 2128</div>
+            </div>
+
+            <hr />
+
+            <button class="card-actions-btn-filled">
+              PLACE ORDER
+              <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-body">Made with &lt; /&gt; by Aditya</div>
+    </footer>
+  </body>
+</html>
