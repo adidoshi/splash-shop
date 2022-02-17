@@ -62,6 +62,11 @@
   margin: 5px 0;
 }
 
+.card-detals-quantity button {
+  border: none;
+  background: none;
+}
+
 .cart-product hr {
   margin: 1rem 0;
 }
