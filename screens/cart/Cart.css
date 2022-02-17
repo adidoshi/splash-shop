@@ -21,7 +21,7 @@
 
 .cart-main > * {
   box-shadow: var(--card-box-shadow);
-  border-radius: 5px;
+  border-radius: 0.35rem;
 }
 
 /* products css */
@@ -37,7 +37,7 @@
 
 .card-horizontal-img {
   width: 40%;
-  padding: 10px;
+  padding: 0.7rem;
 }
 
 .card-horizontal-img img {
@@ -59,7 +59,7 @@
 }
 
 .card-detals-quantity {
-  margin: 5px 0;
+  margin: 0.35rem 0;
 }
 
 .card-detals-quantity button {
