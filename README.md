@@ -18,3 +18,27 @@ Splash shop is the all-in-one leather store where you will find varieties of sho
 - [Auth | Forgot Password](https://splash-shop.netlify.app/screens/auth/forgotpassword)
 
 ## Demo -
+
+Home page:
+
+![recording](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNjMyZWYzYjUtZTU3Ni00NDI5LTg0YzctZjUyM2ZkNjM5MDgyIiwiZGVwbG95X2lkIjoiNjIxMjdmZGNlOTZmMGQwMDA3OTIwZTcwIiwiaWQiOiJkNzhkZjcwMi04YThkLTRmNjctOWViNy02ZDQ0YmJjNmM3MTAifQ==)
+
+Products Page:
+
+![recording](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNjMyZWYzYjUtZTU3Ni00NDI5LTg0YzctZjUyM2ZkNjM5MDgyIiwiZGVwbG95X2lkIjoiNjIxMjdmZGNlOTZmMGQwMDA3OTIwZTcwIiwiaWQiOiJmZTcyYjA3OS00NmQ0LTQ1MmItYjEzYS01OTczMjNlMWU2OTkifQ==)
+
+Cart Page:
+
+![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNjMyZWYzYjUtZTU3Ni00NDI5LTg0YzctZjUyM2ZkNjM5MDgyIiwiZGVwbG95X2lkIjoiNjIxMjdmZGNlOTZmMGQwMDA3OTIwZTcwIiwiaWQiOiJjM2JhYzQzOS05NzE2LTRkODAtYjE0MC1iNjM5OWQyY2JhNjgifQ==)
+
+WishList:
+
+![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNjMyZWYzYjUtZTU3Ni00NDI5LTg0YzctZjUyM2ZkNjM5MDgyIiwiZGVwbG95X2lkIjoiNjIxMjdmZGNlOTZmMGQwMDA3OTIwZTcwIiwiaWQiOiJmNWVhMWY1Yi04ZThmLTQ5ZDItOGZjZi1lMzZlZjEyNjczNzgifQ==)
+
+Authentication:
+
+![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNjMyZWYzYjUtZTU3Ni00NDI5LTg0YzctZjUyM2ZkNjM5MDgyIiwiZGVwbG95X2lkIjoiNjIxMjdmZGNlOTZmMGQwMDA3OTIwZTcwIiwiaWQiOiI5NDk1M2NiNy04ZjViLTQ0YTAtOGE4MC02ZTgxNThiMDUwNzgifQ==)
+
+## Made By -
+
+Aditya Doshi [adidoshi](https://github.com/adidoshi)
